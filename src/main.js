@@ -17,5 +17,5 @@ app.provide('icons', icons)
 app.component('CIcon', CIcon)
 app.component('DocsCallout', DocsCallout)
 app.component('DocsExample', DocsExample)
-
+ 
 app.mount('#app')
