@@ -8,6 +8,7 @@ import CIcon from '@coreui/icons-vue'
 import { iconsSet as icons } from '@/assets/icons'
 import DocsCallout from '@/components/DocsCallout'
 import DocsExample from '@/components/DocsExample'
+import 'devextreme/dist/css/dx.light.css'
 
 const app = createApp(App)
 app.use(store)
@@ -17,5 +18,5 @@ app.provide('icons', icons)
 app.component('CIcon', CIcon)
 app.component('DocsCallout', DocsCallout)
 app.component('DocsExample', DocsExample)
- 
+
 app.mount('#app')

@@ -72,7 +72,9 @@
       <CCol :md="12">
         <CCard class="mb-4">
           <CCardHeader> LOGO </CCardHeader>
-          <CCardBody></CCardBody>
+          <CCardBody>
+            <DxButton text="Click me" @click="sayHelloWorld" />
+          </CCardBody>
         </CCard>
         <CCard class="mb-4">
           <CCardHeader> COPY WRITE </CCardHeader>
@@ -281,12 +283,20 @@ import avatar6 from '@/assets/images/avatars/6.jpg'
 //import WidgetsStatsA from './widgets/WidgetsStatsTypeA.vue'
 //import WidgetsStatsD from './widgets/WidgetsStatsTypeD.vue'
 
+import DxButton from 'devextreme-vue/button'
+
 export default {
   name: 'Dashboard',
   components: {
     //MainChartExample,
     //WidgetsStatsA,
     //WidgetsStatsD,
+    DxButton,
+  },
+  methods: {
+    sayHelloWorld() {
+      alert('Hello world!')
+    },
   },
   setup() {
     const progressGroupExample1 = [
