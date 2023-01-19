@@ -73,7 +73,7 @@
         <CCard class="mb-4">
           <CCardHeader> LOGO </CCardHeader>
           <CCardBody>
-            <DxButton text="Click me" @click="sayHelloWorld" />
+            <DxButton text="테스트" @click="sayHelloWorld" />
           </CCardBody>
         </CCard>
         <CCard class="mb-4">
