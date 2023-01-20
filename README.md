@@ -1,5 +1,5 @@
 
-Vue.js 3 기준 CoreUI 템플릿 (연습)
+Vue.js 3 기준 CoreUI 템플릿 테스트
 
 # CoreUI PRO Vue Admin Template v4
 
